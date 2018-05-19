@@ -1,0 +1,23 @@
+.img-model {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+body {
+	margin: 0;	
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.row::before,
+.row::after {
+	content: "";
+	display: table;
+	clear: both;	
+}
